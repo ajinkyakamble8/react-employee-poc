@@ -1,0 +1,71 @@
+{
+  "name": "employee-poc",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "-": "0.0.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^12.20.15",
+    "@types/react": "^17.0.13",
+    "@types/react-dom": "^17.0.8",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "generate-react-cli": "^7.0.3",
+    "moment": "^2.29.1",
+    "node-sass": "^6.0.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.10.1",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "redux-mock-store": "^1.5.4",
+    "redux-thunk": "^2.3.0",
+    "save-dev": "0.0.1-security",
+    "typescript": "^4.3.5",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test-cv": "react-scripts test --coverage",
+    "eject": "react-scripts eject",
+    "gc": "generate-react component",
+    "gp": "generate-react component --type=page"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/dateformat": "^3.0.1",
+    "@types/enzyme": "^3.10.8",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/react-redux": "^7.1.17",
+    "@types/react-redux-toastr": "^7.6.1",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/redux-mock-store": "^1.0.3",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.2"
+  }
+}
